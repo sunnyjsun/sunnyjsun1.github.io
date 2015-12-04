@@ -1,0 +1,265 @@
+/* Fixed Page */
+
+body {
+    margin: 0px;
+}
+
+#wallpaper {
+display: block;
+height: 700px;
+position: fixed;
+left: 0px;
+top: 80px;
+height: 100%;
+width: 100%;
+z-index: -100;
+
+	 
+}
+
+.wallpaper-resize {
+width: 100%;
+height: auto;
+
+}
+
+#navbar {
+	position: fixed;
+	height: 90px;
+	width: 100%;
+	background-color: white;
+	z-index: 3;
+}
+
+
+.navtabmenu {
+	list-style-type: none;
+	white-space: nowrap;
+	display: inline-block;
+}
+
+.navtabmenu li {
+	display: inline;
+	list-style-type: none;
+	padding-right: 40px;
+	font-weight: bold;
+	right: -800px;
+}
+
+.choice {
+	position: relative;
+	top: 5px;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	display: inline;
+	background-color: white;
+	color: black;
+	cursor: pointer;
+}
+
+}
+
+#nav-right {
+	position: absolute;
+	width: 300px;
+	height: 55%;
+	right: 0;
+	background-color: #EFF7FF;
+	border-top-left-radius: 5px;
+	z-index: 100;
+
+}
+
+
+#googlefont {font-family: 
+'Open Sans', sans-serif;
+font-weight: 400;
+
+
+}
+
+a {
+text-decoration: none;
+}
+
+
+/* Main Page */
+#main-container {
+  height: 1200px;
+  width: 700px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+  padding-top: 200px;
+
+  }
+#image-box{
+	padding-left: 250px;
+}
+
+ #banner-text {
+	position: absolute;
+    top: 100px;
+    left: -70px; 
+    text-align: center;
+    padding-left: 10px;
+    vertical-align: center;
+    z-index: 2;
+    padding-top: 00px;
+ 
+ }
+
+ #heading {
+ 	font-family: 'Righteous', 'cursive';
+ 	color: orange;
+ 	font-size: 80px;
+ 	padding-left: 180px;
+
+
+ }
+
+ #subheading {
+	font-family: 'Roboto', sans-serif;
+ 	color: white;
+ 	font-size: 15px;
+ 	font-weight: 300;	
+ 	vertical-align: center;
+ 	padding-left: 250px;
+
+}
+#words{
+	color: black;
+	vertical-align: center;
+	font-size: 25px;
+	background-color: white;
+	opacity: .7;
+	text-align: center;
+}
+
+#facts{
+	padding-top: 50px;
+	color: black;
+	vertical-align: center;
+	font-size: 15px;
+	background-color: white;
+	opacity: .7;
+	text-align: center;
+	
+
+}
+
+
+ table, table td{
+ 	border: 0;
+ 	padding-top: 100px;
+ }
+
+table .image-column {
+	float: left;
+	border-spacing: 200px;
+    height: auto;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 100px;
+}
+table .table-words{
+	color: white;
+	font-size: 20px;
+	padding-right: 50px;
+	text-align: center;
+	font: 'Roboto', sans-serif;
+	padding-bottom: 100px;
+
+
+}
+
+/* Hobbies Page */
+
+
+ #content-container{
+ 	display: block;
+ 	width: 1000px;
+	}
+
+ .hello-section{
+ 	padding-top: 20px;
+    padding-left: 20px;
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    position: relative;
+    padding-top: 100px;
+    padding-left: -400px;
+    margin-right: 100px;
+
+ }
+
+.hello-content{
+	font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 10px 20px;
+    background-color: transparent;
+    z-index: 4;
+}
+
+
+#about-content{
+	color: white !important;
+	font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 70px;
+    background-color: transparent;
+    z-index: 2;
+}
+
+#link {
+
+	width: 200px;
+	margin: 40px auto;
+	padding: 10px 40px;
+	font-size: 20px;
+	color: red;
+	background-color: orange;
+	text-decoration: none;
+	opacity: .6;
+
+}
+
+.background-white {
+	background-color: white !important;
+}
+
+/* Resume Page */
+
+#icons { 
+	padding: 30px;
+
+}
+
+.resume{
+	padding-left: 100px;
+	opacity: .5;
+
+}
+
+.linkedin{
+	padding-left: 100px;
+	opacity: .5;
+
+}
+
+.mail{
+	padding-left: 100px;
+	opacity: .5;
+
+}
+
+    

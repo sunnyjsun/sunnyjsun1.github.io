@@ -1,0 +1,74 @@
+<html>
+<head>
+	<title>Sunny Sun</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css" >
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<script src="assets/jss/jquery-1.11.3.min.js"></script>
+	<script>
+	$(document).ready(function(){
+		$(".choice").hover(function(){
+		    $(this).css("background-color", "orange");
+		    }, function(){
+		    $(this).css("background-color", "white");
+			});
+		});
+	$(document).ready(function(){
+		$("#hide").click(function(){
+   			$(".content").hide();
+    	});
+    	$("#show").click(function(){
+        	$(".content").show();
+    		});
+    	$(".linkedin").hover(function() {
+    		$(this).css("transform", "rotateY(180deg)");
+    	}, function(){
+			$(this).css("transform", "rotateY(0deg)");
+    	});
+    	$(".resume").hover(function() {
+    		$(this).css("transform", "rotateY(180deg)");
+    	}, function(){
+			$(this).css("transform", "rotateY(0deg)");
+    	});
+    	$(".mail").hover(function() {
+    		$(this).css("transform", "rotateY(180deg)");
+    	}, function(){
+			$(this).css("transform", "rotateY(0deg)");
+    	});
+	});
+	</script>
+
+</head>	
+<body>
+	<div id= "wallpaper">
+		<img class="wallpaper-resize" src="assets/img/sun.png">
+	</div>
+	<div id="navbar">
+			<div class="nav-partition" id="nav-left">
+				<ul class="navtabmenu">
+					<a href=index.html><li class="choice">&nbsp&nbsp&nbsp&nbsp&nbsp&nbspAbout Me</li>
+					<a href=resume.html><li class="choice">&nbsp&nbsp&nbsp&nbsp&nbsp&nbspResume</li>
+					<a href=hobby.html><li class="choice">&nbsp&nbsp&nbsp&nbsp&nbsp&nbspHobbies</li></a>
+				</ul>
+			</div>
+	</div>
+	<div id= "about-container">
+		<div id="about-content"><br><h1>Just a few things about me</br></h1>
+			<h2>Research and Analytics Intern at Goodby Silverstein & Partners  - Marketing Chair at Ascend Accounting and Finance Group - Student Strategist at ImagiCal, Berkeley's creative consulting and case competition team - President of Sylmar High School Marching Band Board - SUDEP Case Competition Winner </h2><p><p>
+		<div id="displayer">
+			<button id="hide">Hide</button><p>	<button id="show">Show</button><p>
+		</div>
+		<div class="content">	
+			<div id= "icons">
+				<a href="assets/img/resume.pdf"><img class="linkedin" src="assets/img/resume.png" style="width: 140;height:100"></img>	
+				<a href="https://www.linkedin.com/in/sunny-sun-23baa96a"> <img class= "resume" src = "assets/img/linkedin.png" style="width: 140;height:100"></img> 
+				<a href="mailto:sunnyjsun1@gmail.com"> <img class= "mail" src = "assets/img/mail.png" style="width: 100;height:100"></img>
+				</a> 
+				</p>
+			</div>
+			<div class= ".words">
+					<br><br>If you ever have any questions about my experience or my career, feel free to check out my resume or email me at sunnyjsun1@gmail.com
+				</p>
+			</div>
+		</div>
+
+
